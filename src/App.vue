@@ -1,7 +1,18 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/Login">Login</router-link>|
+    <router-link to="/setup">setup</router-link>|
+    <router-link to="/setup02">setup02</router-link>|
+    <router-link to="/setup03">setup03</router-link>|
+    <router-link to="/todo">todo</router-link>|
+    <router-link to="/templateAbout">模板引用</router-link>|
+    <router-link to="/JSX">JSX中引用</router-link>|
+    <router-link to="/templateAbout2">v-for中引用</router-link>|
+    <router-link to="/watchref">侦听模板引用</router-link>|
+    <router-link to="/reactive">响应性基础</router-link>|
+    <router-link to="/toRaw">toRaw</router-link>|
+    <router-link to="/toRef">toRef</router-link>|
+    <router-link to="/customRef">customRef</router-link>|
   </div>
   <router-view/>
 </template>
